@@ -16,6 +16,11 @@
 		6795A265142130E9005314C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6795A263142130E9005314C9 /* MainWindow.xib */; };
 		6795A268142130E9005314C9 /* FeelingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6795A267142130E9005314C9 /* FeelingsViewController.m */; };
 		6795A26B142130E9005314C9 /* FeelingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6795A269142130E9005314C9 /* FeelingsViewController.xib */; };
+		6795A27214213484005314C9 /* MoodKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6795A27114213484005314C9 /* MoodKeyboard.xib */; };
+		6795A27714213516005314C9 /* angry.png in Resources */ = {isa = PBXBuildFile; fileRef = 6795A27314213516005314C9 /* angry.png */; };
+		6795A27814213516005314C9 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6795A27414213516005314C9 /* happy.png */; };
+		6795A27914213516005314C9 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6795A27514213516005314C9 /* sad.png */; };
+		6795A27A14213516005314C9 /* wink.png in Resources */ = {isa = PBXBuildFile; fileRef = 6795A27614213516005314C9 /* wink.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +38,11 @@
 		6795A266142130E9005314C9 /* FeelingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeelingsViewController.h; sourceTree = "<group>"; };
 		6795A267142130E9005314C9 /* FeelingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelingsViewController.m; sourceTree = "<group>"; };
 		6795A26A142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeelingsViewController.xib; sourceTree = "<group>"; };
+		6795A27114213484005314C9 /* MoodKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoodKeyboard.xib; sourceTree = "<group>"; };
+		6795A27314213516005314C9 /* angry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry.png; sourceTree = "<group>"; };
+		6795A27414213516005314C9 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		6795A27514213516005314C9 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		6795A27614213516005314C9 /* wink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wink.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +89,8 @@
 		6795A257142130E9005314C9 /* Feelings */ = {
 			isa = PBXGroup;
 			children = (
-				6795A260142130E9005314C9 /* FeelingsAppDelegate.h */,
-				6795A261142130E9005314C9 /* FeelingsAppDelegate.m */,
-				6795A263142130E9005314C9 /* MainWindow.xib */,
-				6795A266142130E9005314C9 /* FeelingsViewController.h */,
-				6795A267142130E9005314C9 /* FeelingsViewController.m */,
-				6795A269142130E9005314C9 /* FeelingsViewController.xib */,
+				6795A27C1421353D005314C9 /* Classes */,
+				6795A27B1421351C005314C9 /* Resources */,
 				6795A258142130E9005314C9 /* Supporting Files */,
 			);
 			path = Feelings;
@@ -99,6 +105,31 @@
 				6795A25F142130E9005314C9 /* Feelings-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6795A27B1421351C005314C9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6795A27114213484005314C9 /* MoodKeyboard.xib */,
+				6795A263142130E9005314C9 /* MainWindow.xib */,
+				6795A27314213516005314C9 /* angry.png */,
+				6795A27414213516005314C9 /* happy.png */,
+				6795A27514213516005314C9 /* sad.png */,
+				6795A27614213516005314C9 /* wink.png */,
+				6795A269142130E9005314C9 /* FeelingsViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6795A27C1421353D005314C9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6795A260142130E9005314C9 /* FeelingsAppDelegate.h */,
+				6795A261142130E9005314C9 /* FeelingsAppDelegate.m */,
+				6795A266142130E9005314C9 /* FeelingsViewController.h */,
+				6795A267142130E9005314C9 /* FeelingsViewController.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +185,11 @@
 				6795A25C142130E9005314C9 /* InfoPlist.strings in Resources */,
 				6795A265142130E9005314C9 /* MainWindow.xib in Resources */,
 				6795A26B142130E9005314C9 /* FeelingsViewController.xib in Resources */,
+				6795A27214213484005314C9 /* MoodKeyboard.xib in Resources */,
+				6795A27714213516005314C9 /* angry.png in Resources */,
+				6795A27814213516005314C9 /* happy.png in Resources */,
+				6795A27914213516005314C9 /* sad.png in Resources */,
+				6795A27A14213516005314C9 /* wink.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
