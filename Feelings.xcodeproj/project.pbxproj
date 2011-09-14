@@ -23,14 +23,14 @@
 		6795A251142130E9005314C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6795A253142130E9005314C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6795A255142130E9005314C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6795A259142130E9005314C9 /* Feelings-Info.plist */ = {isa = PBXFileReference; path = "Feelings-Info.plist"; sourceTree = "<group>"; };
+		6795A259142130E9005314C9 /* Feelings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Feelings-Info.plist"; sourceTree = "<group>"; };
 		6795A25B142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6795A25D142130E9005314C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6795A25F142130E9005314C9 /* Feelings-Prefix.pch */ = {isa = PBXFileReference; path = "Feelings-Prefix.pch"; sourceTree = "<group>"; };
-		6795A260142130E9005314C9 /* FeelingsAppDelegate.h */ = {isa = PBXFileReference; path = FeelingsAppDelegate.h; sourceTree = "<group>"; };
+		6795A25F142130E9005314C9 /* Feelings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Feelings-Prefix.pch"; sourceTree = "<group>"; };
+		6795A260142130E9005314C9 /* FeelingsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeelingsAppDelegate.h; sourceTree = "<group>"; };
 		6795A261142130E9005314C9 /* FeelingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelingsAppDelegate.m; sourceTree = "<group>"; };
 		6795A264142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		6795A266142130E9005314C9 /* FeelingsViewController.h */ = {isa = PBXFileReference; path = FeelingsViewController.h; sourceTree = "<group>"; };
+		6795A266142130E9005314C9 /* FeelingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeelingsViewController.h; sourceTree = "<group>"; };
 		6795A267142130E9005314C9 /* FeelingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelingsViewController.m; sourceTree = "<group>"; };
 		6795A26A142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeelingsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
