@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6795A252142130E9005314C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6795A251142130E9005314C9 /* UIKit.framework */; };
+		6795A254142130E9005314C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6795A253142130E9005314C9 /* Foundation.framework */; };
+		6795A256142130E9005314C9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6795A255142130E9005314C9 /* CoreGraphics.framework */; };
+		6795A25C142130E9005314C9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6795A25A142130E9005314C9 /* InfoPlist.strings */; };
+		6795A25E142130E9005314C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6795A25D142130E9005314C9 /* main.m */; };
+		6795A262142130E9005314C9 /* FeelingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6795A261142130E9005314C9 /* FeelingsAppDelegate.m */; };
+		6795A265142130E9005314C9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6795A263142130E9005314C9 /* MainWindow.xib */; };
+		6795A268142130E9005314C9 /* FeelingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6795A267142130E9005314C9 /* FeelingsViewController.m */; };
+		6795A26B142130E9005314C9 /* FeelingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6795A269142130E9005314C9 /* FeelingsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6795A24D142130E8005314C9 /* Feelings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feelings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6795A251142130E9005314C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6795A253142130E9005314C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6795A255142130E9005314C9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6795A259142130E9005314C9 /* Feelings-Info.plist */ = {isa = PBXFileReference; path = "Feelings-Info.plist"; sourceTree = "<group>"; };
+		6795A25B142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6795A25D142130E9005314C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6795A25F142130E9005314C9 /* Feelings-Prefix.pch */ = {isa = PBXFileReference; path = "Feelings-Prefix.pch"; sourceTree = "<group>"; };
+		6795A260142130E9005314C9 /* FeelingsAppDelegate.h */ = {isa = PBXFileReference; path = FeelingsAppDelegate.h; sourceTree = "<group>"; };
+		6795A261142130E9005314C9 /* FeelingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelingsAppDelegate.m; sourceTree = "<group>"; };
+		6795A264142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		6795A266142130E9005314C9 /* FeelingsViewController.h */ = {isa = PBXFileReference; path = FeelingsViewController.h; sourceTree = "<group>"; };
+		6795A267142130E9005314C9 /* FeelingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeelingsViewController.m; sourceTree = "<group>"; };
+		6795A26A142130E9005314C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FeelingsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6795A24A142130E8005314C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6795A252142130E9005314C9 /* UIKit.framework in Frameworks */,
+				6795A254142130E9005314C9 /* Foundation.framework in Frameworks */,
+				6795A256142130E9005314C9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6795A242142130E8005314C9 = {
+			isa = PBXGroup;
+			children = (
+				6795A257142130E9005314C9 /* Feelings */,
+				6795A250142130E9005314C9 /* Frameworks */,
+				6795A24E142130E8005314C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6795A24E142130E8005314C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6795A24D142130E8005314C9 /* Feelings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6795A250142130E9005314C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6795A251142130E9005314C9 /* UIKit.framework */,
+				6795A253142130E9005314C9 /* Foundation.framework */,
+				6795A255142130E9005314C9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6795A257142130E9005314C9 /* Feelings */ = {
+			isa = PBXGroup;
+			children = (
+				6795A260142130E9005314C9 /* FeelingsAppDelegate.h */,
+				6795A261142130E9005314C9 /* FeelingsAppDelegate.m */,
+				6795A263142130E9005314C9 /* MainWindow.xib */,
+				6795A266142130E9005314C9 /* FeelingsViewController.h */,
+				6795A267142130E9005314C9 /* FeelingsViewController.m */,
+				6795A269142130E9005314C9 /* FeelingsViewController.xib */,
+				6795A258142130E9005314C9 /* Supporting Files */,
+			);
+			path = Feelings;
+			sourceTree = "<group>";
+		};
+		6795A258142130E9005314C9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6795A259142130E9005314C9 /* Feelings-Info.plist */,
+				6795A25A142130E9005314C9 /* InfoPlist.strings */,
+				6795A25D142130E9005314C9 /* main.m */,
+				6795A25F142130E9005314C9 /* Feelings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6795A24C142130E8005314C9 /* Feelings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6795A26E142130E9005314C9 /* Build configuration list for PBXNativeTarget "Feelings" */;
+			buildPhases = (
+				6795A249142130E8005314C9 /* Sources */,
+				6795A24A142130E8005314C9 /* Frameworks */,
+				6795A24B142130E8005314C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Feelings;
+			productName = Feelings;
+			productReference = 6795A24D142130E8005314C9 /* Feelings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6795A244142130E8005314C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Deployment Zone";
+			};
+			buildConfigurationList = 6795A247142130E8005314C9 /* Build configuration list for PBXProject "Feelings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6795A242142130E8005314C9;
+			productRefGroup = 6795A24E142130E8005314C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6795A24C142130E8005314C9 /* Feelings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6795A24B142130E8005314C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6795A25C142130E9005314C9 /* InfoPlist.strings in Resources */,
+				6795A265142130E9005314C9 /* MainWindow.xib in Resources */,
+				6795A26B142130E9005314C9 /* FeelingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6795A249142130E8005314C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6795A25E142130E9005314C9 /* main.m in Sources */,
+				6795A262142130E9005314C9 /* FeelingsAppDelegate.m in Sources */,
+				6795A268142130E9005314C9 /* FeelingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6795A25A142130E9005314C9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6795A25B142130E9005314C9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6795A263142130E9005314C9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6795A264142130E9005314C9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		6795A269142130E9005314C9 /* FeelingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6795A26A142130E9005314C9 /* en */,
+			);
+			name = FeelingsViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6795A26C142130E9005314C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		6795A26D142130E9005314C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6795A26F142130E9005314C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feelings/Feelings-Prefix.pch";
+				INFOPLIST_FILE = "Feelings/Feelings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6795A270142130E9005314C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Feelings/Feelings-Prefix.pch";
+				INFOPLIST_FILE = "Feelings/Feelings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6795A247142130E8005314C9 /* Build configuration list for PBXProject "Feelings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6795A26C142130E9005314C9 /* Debug */,
+				6795A26D142130E9005314C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6795A26E142130E9005314C9 /* Build configuration list for PBXNativeTarget "Feelings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6795A26F142130E9005314C9 /* Debug */,
+				6795A270142130E9005314C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6795A244142130E8005314C9 /* Project object */;
+}
