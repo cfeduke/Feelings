@@ -9,6 +9,8 @@
 #import "FeelingsViewController.h"
 
 @implementation FeelingsViewController
+@synthesize textView;
+@synthesize moodKeyboard;
 
 - (void)didReceiveMemoryWarning
 {
@@ -20,13 +22,14 @@
 
 #pragma mark - View lifecycle
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [[NSBundle mainBundle] loadNibNamed:@"MoodKeyboard" owner:self options:nil];
+    
+    self.textView.inputView = self.moodKeyboard;
 }
-*/
 
 - (void)viewDidUnload
 {
@@ -41,4 +44,24 @@
     return YES;
 }
 
+-(void)updateTextViewWithMood:(NSString *) mood {
+    self.textView.text = mood;
+    [self.textView resignFirstResponder];
+}
+
+-(IBAction)didTapAngryKey {
+    [self updateTextViewWithMood:@">:("];
+}
+
+-(IBAction)didTapWinkKey {
+    [self updateTextViewWithMood:@";)"];
+}
+
+-(IBAction)didTapSadKey {
+    [self updateTextViewWithMood:@":("];
+}
+
+-(IBAction)didTapHappyKey {
+    [self updateTextViewWithMood:@":)"];
+}
 @end
